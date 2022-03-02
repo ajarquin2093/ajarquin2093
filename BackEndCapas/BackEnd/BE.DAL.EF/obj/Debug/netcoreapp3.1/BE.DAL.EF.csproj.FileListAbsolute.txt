@@ -11,3 +11,6 @@ C:\Users\ajarquin\OneDrive - Universidad Fidélitas\Documentos\GitHub\ajarquin20
 C:\Users\ajarquin\OneDrive - Universidad Fidélitas\Documentos\GitHub\ajarquin2093\BackEndCapas\BackEnd\BE.DAL.EF\obj\Debug\netcoreapp3.1\BE.DAL.EF.pdb
 C:\Users\ajarquin\OneDrive - Universidad Fidélitas\Documentos\GitHub\ajarquin2093\BackEndCapas\BackEnd\BE.DAL.EF\obj\Debug\netcoreapp3.1\BE.DAL.EF.genruntimeconfig.cache
 C:\Users\ajarquin\OneDrive - Universidad Fidélitas\Documentos\GitHub\ajarquin2093\BackEndCapas\BackEnd\BE.DAL.EF\obj\Debug\netcoreapp3.1\BE.DAL.EF.csproj.AssemblyReference.cache
+C:\Users\ajarquin\OneDrive - Universidad Fidélitas\Documentos\GitHub\ajarquin2093\BackEndCapas\BackEnd\BE.DAL.EF\bin\Debug\netcoreapp3.1\BE.DAL.DO.dll
+C:\Users\ajarquin\OneDrive - Universidad Fidélitas\Documentos\GitHub\ajarquin2093\BackEndCapas\BackEnd\BE.DAL.EF\bin\Debug\netcoreapp3.1\BE.DAL.DO.pdb
+C:\Users\ajarquin\OneDrive - Universidad Fidélitas\Documentos\GitHub\ajarquin2093\BackEndCapas\BackEnd\BE.DAL.EF\obj\Debug\netcoreapp3.1\BE.DAL.EF.csproj.CopyComplete
