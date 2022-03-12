@@ -64,7 +64,6 @@ C:\Users\ajarquin\OneDrive - Universidad Fidélitas\Documentos\GitHub\ajarquin20
 C:\Users\ajarquin\OneDrive - Universidad Fidélitas\Documentos\GitHub\ajarquin2093\BackEndCapas\BackEnd\API\obj\Debug\netcoreapp3.1\API.dll
 C:\Users\ajarquin\OneDrive - Universidad Fidélitas\Documentos\GitHub\ajarquin2093\BackEndCapas\BackEnd\API\obj\Debug\netcoreapp3.1\API.pdb
 C:\Users\ajarquin\OneDrive - Universidad Fidélitas\Documentos\GitHub\ajarquin2093\BackEndCapas\BackEnd\API\obj\Debug\netcoreapp3.1\API.genruntimeconfig.cache
-C:\Users\ajarquin\OneDrive - Universidad Fidélitas\Documentos\GitHub\ajarquin2093\BackEndCapas\BackEnd\API\obj\Debug\netcoreapp3.1\API.csproj.AssemblyReference.cache
 C:\Users\ajarquin\OneDrive - Universidad Fidélitas\Documentos\GitHub\ajarquin2093\BackEndCapas\BackEnd\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\ajarquin\OneDrive - Universidad Fidélitas\Documentos\GitHub\ajarquin2093\BackEndCapas\BackEnd\API\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
 C:\Users\ajarquin\OneDrive - Universidad Fidélitas\Documentos\GitHub\ajarquin2093\BackEndCapas\BackEnd\API\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
