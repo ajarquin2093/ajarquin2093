@@ -16,7 +16,46 @@ namespace BE.BS
         {
             _dal = new dal.Categories(dbContext);
         }
-        void ICRUD<data.Categories>.Delete(data.Categories t)
+
+        public void Delete(data.Categories t)
+        {
+            _dal.Delete(t);
+        }
+
+        public IEnumerable<data.Categories> GetAll()
+        {
+            return _dal.GetAll();
+        }
+
+        public Task<IEnumerable<data.Categories>> GetAllAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        public data.Categories GetOneById(int id)
+        {
+            return _dal.GetOneById(id);
+        }
+
+        public Task<data.Categories> GetOneByIdAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Insert(data.Categories t)
+        {
+            _dal.Insert(t);
+        }
+
+        public void Update(data.Categories t)
+        {
+            _dal.Update(t);
+        }
+
+
+
+
+        /*void ICRUD<data.Categories>.Delete(data.Categories t)
         {
             _dal.Delete(t);
         }
@@ -49,6 +88,6 @@ namespace BE.BS
         void ICRUD<data.Categories>.Update(data.Categories t)
         {
             _dal.Update(t);
-        }
+        }*/
     }
 }

@@ -16,40 +16,44 @@ namespace BE.DAL
         {
             repo = new Repository<data.Categories>(dbContext);
         }
-        void ICRUD<data.Categories>.Delete(data.Categories t)
+
+        public void Delete(data.Categories t)
         {
             repo.Delete(t);
             repo.Commit();
         }
 
-        IEnumerable<data.Categories> ICRUD<data.Categories>.GetAll()
+        public IEnumerable<data.Categories> GetAll()
         {
             return repo.GetAll();
         }
 
-        Task<IEnumerable<data.Categories>> ICRUD<data.Categories>.GetAllAsync()
+        public Task<IEnumerable<data.Categories>> GetAllAsync()
         {
             throw new NotImplementedException();
         }
 
-        data.Categories ICRUD<data.Categories>.GetOneById(int id)
+        public data.Categories GetOneById(int id)
         {
             return repo.GetOnebyID(id);
         }
 
-        Task<data.Categories> ICRUD<data.Categories>.GetOneByIdAsync(int id)
+        public Task<data.Categories> GetOneByIdAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        void ICRUD<data.Categories>.Insert(data.Categories t)
+        public void Insert(data.Categories t)
         {
             repo.Insert(t);
+            repo.Commit();
         }
 
-        void ICRUD<data.Categories>.Update(data.Categories t)
+        public void Update(data.Categories t)
         {
             repo.Update(t);
+            repo.Commit();
         }
+
     }
 }

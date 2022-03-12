@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using API.Models;
+using AutoMapper;
 
 namespace API.Controllers
 {
@@ -14,10 +13,12 @@ namespace API.Controllers
     public class CategoriesController : ControllerBase
     {
         private readonly NorthwindContext _context;
+        private readonly IMapper mapper;
 
-        public CategoriesController(NorthwindContext context)
+        public CategoriesController(NorthwindContext context, IMapper _mapper)
         {
             _context = context;
+            mapper = _mapper;
         }
 
         // GET: api/Categories

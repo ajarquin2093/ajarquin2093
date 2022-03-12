@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "m5yz9WaQLVeRXIh84FYh/p56sEv07iyTCFvwPpdmuGCm08Xtvzlio+2QNaSYGfyVU4NZ7J5Sm3AxlHF5xUBGmw==",
+  "dgSpecHash": "NrjuvVKC2b25FBDsBna5mWtktq8nMex90sOV/u3w95inIVK+8dbKIOvw5iKCgKtKCgTXfRpZnD7CM6/lz9VP+Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\BackEndCapas\\BackEnd\\API\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ajarquin\\.nuget\\packages\\automapper\\8.1.1\\automapper.8.1.1.nupkg.sha512",
     "C:\\Users\\ajarquin\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\ajarquin\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\ajarquin\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",
