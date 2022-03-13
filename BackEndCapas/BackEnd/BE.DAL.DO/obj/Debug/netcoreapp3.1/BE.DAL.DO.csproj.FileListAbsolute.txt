@@ -10,3 +10,4 @@ C:\Users\ajarquin\OneDrive - Universidad Fidélitas\Documentos\GitHub\ajarquin20
 C:\Users\ajarquin\OneDrive - Universidad Fidélitas\Documentos\GitHub\ajarquin2093\BackEndCapas\BackEnd\BE.DAL.DO\obj\Debug\netcoreapp3.1\BE.DAL.DO.dll
 C:\Users\ajarquin\OneDrive - Universidad Fidélitas\Documentos\GitHub\ajarquin2093\BackEndCapas\BackEnd\BE.DAL.DO\obj\Debug\netcoreapp3.1\BE.DAL.DO.pdb
 C:\Users\ajarquin\OneDrive - Universidad Fidélitas\Documentos\GitHub\ajarquin2093\BackEndCapas\BackEnd\BE.DAL.DO\obj\Debug\netcoreapp3.1\BE.DAL.DO.genruntimeconfig.cache
+C:\Users\ajarquin\OneDrive - Universidad Fidélitas\Documentos\GitHub\ajarquin2093\BackEndCapas\BackEnd\BE.DAL.DO\obj\Debug\netcoreapp3.1\BE.DAL.DO.csproj.AssemblyReference.cache
