@@ -1,0 +1,544 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.API\\Ex.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.API\\Ex.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.API\\Ex.API.csproj",
+        "projectName": "Ex.API",
+        "projectPath": "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.API\\Ex.API.csproj",
+        "packagesPath": "C:\\Users\\ajarquin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ajarquin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.BS\\Ex.BS.csproj": {
+                "projectPath": "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.BS\\Ex.BS.csproj"
+              },
+              "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL.EF\\Ex.DAL.EF.csproj": {
+                "projectPath": "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL.EF\\Ex.DAL.EF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.BS\\Ex.BS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.BS\\Ex.BS.csproj",
+        "projectName": "Ex.BS",
+        "projectPath": "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.BS\\Ex.BS.csproj",
+        "packagesPath": "C:\\Users\\ajarquin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.BS\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ajarquin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL.DO\\Ex.DAL.DO.csproj": {
+                "projectPath": "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL.DO\\Ex.DAL.DO.csproj"
+              },
+              "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL\\Ex.DAL.csproj": {
+                "projectPath": "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL\\Ex.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL.DO\\Ex.DAL.DO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL.DO\\Ex.DAL.DO.csproj",
+        "projectName": "Ex.DAL.DO",
+        "projectPath": "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL.DO\\Ex.DAL.DO.csproj",
+        "packagesPath": "C:\\Users\\ajarquin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL.DO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ajarquin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL.EF\\Ex.DAL.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL.EF\\Ex.DAL.EF.csproj",
+        "projectName": "Ex.DAL.EF",
+        "projectPath": "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL.EF\\Ex.DAL.EF.csproj",
+        "packagesPath": "C:\\Users\\ajarquin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ajarquin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL.DO\\Ex.DAL.DO.csproj": {
+                "projectPath": "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL.DO\\Ex.DAL.DO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL.Repository\\Ex.DAL.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL.Repository\\Ex.DAL.Repository.csproj",
+        "projectName": "Ex.DAL.Repository",
+        "projectPath": "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL.Repository\\Ex.DAL.Repository.csproj",
+        "packagesPath": "C:\\Users\\ajarquin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ajarquin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL.EF\\Ex.DAL.EF.csproj": {
+                "projectPath": "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL.EF\\Ex.DAL.EF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL\\Ex.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL\\Ex.DAL.csproj",
+        "projectName": "Ex.DAL",
+        "projectPath": "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL\\Ex.DAL.csproj",
+        "packagesPath": "C:\\Users\\ajarquin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ajarquin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL.DO\\Ex.DAL.DO.csproj": {
+                "projectPath": "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL.DO\\Ex.DAL.DO.csproj"
+              },
+              "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL.Repository\\Ex.DAL.Repository.csproj": {
+                "projectPath": "C:\\Users\\ajarquin\\OneDrive - Universidad Fidélitas\\Documentos\\GitHub\\ajarquin2093\\Ex.API\\Ex.DAL.Repository\\Ex.DAL.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
